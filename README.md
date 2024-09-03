@@ -19,7 +19,7 @@ This stored procedure, pr_buy_products, is designed to handle the purchasing pro
         Updates the products table to reflect the new quantities: decreases quantity_remained and increases quantity_sold based on the quantity ordered.
 
 
-        Example Usage
+
 
 To execute the procedure and place an order, use the following SQL command:
 
