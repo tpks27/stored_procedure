@@ -1,7 +1,7 @@
 # stored_procedures
 ForLearningStored_Procedures
 
-##pr_buy_products.sql
+## pr_buy_products.sql
 
 This stored procedure, pr_buy_products, is designed to handle the purchasing process for a specific product in an inventory system. It performs the following operations:
 
@@ -34,7 +34,7 @@ sql
 @p_product_name: The name of the product to purchase (e.g., 'iphone14').
 @p_quantity: The quantity of the product being ordered (e.g., 2).
 
-##pr_buy_products_advance.sql
+## pr_buy_products_advance.sql
 
 Transaction Management: Added BEGIN TRANSACTION, ROLLBACK TRANSACTION, and COMMIT TRANSACTION to ensure data integrity.
 Quantity Validation: Added a check to ensure the quantity is greater than zero.
